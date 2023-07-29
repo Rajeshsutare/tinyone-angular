@@ -1,0 +1,25 @@
+
+.footer{
+    background-color: $color-dark;
+    .ftHead{
+        & > h1  {
+            font-size: 2rem;
+            font-weight: bold;
+            color: $color-primary;
+            margin-bottom: 1.5625rem;
+        }
+        & > p  {
+            font-size: 1rem;
+            color: $color-featureP;
+            margin-bottom: 1.5625rem;
+        }
+    }
+    .ft-icon i{
+        margin-left: 2rem;
+        color: $color-primary;
+    }
+    .ft-info > p{
+        margin: 0;
+        color: $color-para;
+    }
+}
